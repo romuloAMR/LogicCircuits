@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY D1_ALU IS
+    PORT(
+        M  : IN  STD_LOGIC;
+        S0 : IN  STD_LOGIC;
+        S1 : IN  STD_LOGIC;
+        O  : OUT STD_LOGIC
+    );
+END D1_ALU;
+
+ARCHITECTURE Behavior OF D1_ALU IS
+BEGIN
+    O <= (NOT M) AND S0 AND (NOT S1);
+END Behavior;
