@@ -9,5 +9,6 @@
 - Full Comparator
 - 5-bit Comparator
 - Shift 16-bit
+- ALU 16-bit
 
 Made in VHDL
